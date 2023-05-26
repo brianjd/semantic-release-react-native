@@ -74,7 +74,7 @@ const getIosStrictBundleVersion = (currentBundleVersion: string, version: string
   const preReleaseChar = preReleaseLabel[0];
   const validPreReleaseChar = ['a', 'b', 'd', 'f'].includes(preReleaseChar)
     ? preReleaseChar
-    : 'f';
+    : 'b';
 
   const preReleaseVersion = parseInt(preReleaseLabel.split('.')[1] ?? 1, 10);
 
